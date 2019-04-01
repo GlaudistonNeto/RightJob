@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroCliActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/edtNomeCli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nome do Cliente"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtSobrenomeCli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Sobrenome do Cliente"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtEstadoCli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Estado do Cli"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtCidadeCli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Cidade do Cliente"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtBairroCli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Bairro do Cliente"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtTelefoneCli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Telefone do Cliente"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/edtEmailCli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Email do Cliente para Login"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/edtSenhaCli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Senha do Cliente para Login"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/edtConfSenhaCli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Confirme a sua senha"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btnRegistrarCli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Inserir" />
+
+        <Button
+            android:id="@+id/btnIrLoginCli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ir Login" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

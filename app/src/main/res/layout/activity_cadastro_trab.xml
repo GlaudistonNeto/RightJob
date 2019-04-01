@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroTrabActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/edtNameTrab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nome do Trabalhador"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtSobrenomeTrab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Sobrenome do Trabalhador"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtEstadoTrab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Estado do Trabalhador"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtCidadeTrab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Cidade do Trabalhador"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtBairroTrab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Bairro do Trabalhador"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtTelefoneTrab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Telefone do Trabalhador"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/edtTipoServicoPrestado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Qual o tipo de serviço que fornece?"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtDescricaoServicos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Descreva alguns serviços que já tenha concluido"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtEmailTrab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Email do Trabalhador para Login"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/edtSenhaTrab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Senha do Trabalhador para Login"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/edtConfSenhaTrab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Confirme a sua senha"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btnRegistrarTrab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Inserir" />
+
+        <Button
+            android:id="@+id/btnIrLoginTrab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ir Login" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
